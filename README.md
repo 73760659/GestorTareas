@@ -9,3 +9,15 @@ el enfoque de Desarrollo Guiado por Pruebas (TDD) junto con GitFlow para la gest
 1. Clona este repositorio:
  ```bash
  git clone https://github.com/73760659/GestorTareas.git
+### Estructura del proyecto
+```
+### Estructura del proyecto
+gestor_tareas/
+├── tests/
+│	└── test_gestor_tareas.py
+├── src/
+│	├── logica
+│	│	└── test_gestor_tareas.py
+│	└── vista
+│	└── gui_gestor_tareas.py
+└── README.md
